@@ -41,7 +41,7 @@ class mqConsumerInterface:
     ) -> None:
         # Acknowledge message
 
-        #Print message (The message is contained in the body parameter variable)
+        # Print message (The message is contained in the body parameter variable)
 
         pass
 
@@ -50,12 +50,12 @@ class mqConsumerInterface:
 
         # Start consuming messages
         pass
-    
+
     def __del__(self) -> None:
         # Print "Closing RMQ connection on destruction"
-        
+
         # Close Channel
 
         # Close Connection
-        
+
         pass
